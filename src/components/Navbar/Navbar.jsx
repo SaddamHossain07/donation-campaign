@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 
@@ -34,9 +34,9 @@ const Navbar = () => {
 
     return (
         <nav className="bg-white p-6 shadow-lg text-black flex justify-between items-center">
-            <div>
+            <Link to={'/'}>
                 <img className="h-20" src="https://i.ibb.co/xHsSxh0/Logo.png" alt="" />
-            </div>
+            </Link>
             <div className="text-2xl md:hidden" onClick={() => setOpen(!open)}>
                 {
                     open === true ? <AiOutlineClose /> : <AiOutlineMenu />

@@ -23,7 +23,6 @@ const Donation = () => {
 
         }
         setSavedItem(savedDonations)
-        console.log(savedDonations)
 
     }, [donationAll])
 
