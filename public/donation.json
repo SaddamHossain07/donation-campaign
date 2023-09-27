@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/vkfrj85/Education.png",
+        "title": "Education Fundraiser",
+        "category": "Education",
+        "categoryBackground": "#FF444A33",
+        "cardBackground": "#FF444A26",
+        "textColor": "#FF444A",
+        "description": "Invest in the future of our community by donating to provide books and school supplies to local schools in need. Your contribution will ensure that students have access to the educational resources they need to excel in their studies. Education is the key to empowerment, and your support can help unlock the potential of countless young minds. Join us in making education accessible to all children in our area!",
+        "price": 50
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/PgzWQVq/Health.png",
+        "title": "Health Clinic Expansion",
+        "category": "Health",
+        "categoryBackground": "#0052ff33",
+        "cardBackground": "#0052ff26 ",
+        "textColor": "#0052FF",
+        "description": "Contribute to our mission of improving healthcare in rural areas by donating to provide essential medical supplies to remote clinics. Many underserved communities lack access to even the most basic medical resources. Your donation will help save lives by ensuring that healthcare providers have the tools they need to diagnose and treat patients effectively. Your support can bring quality healthcare closer to those who need it most.",
+        "price": 75
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/XYQY8zF/Clothing.png",
+        "title": "Warm Clothing Drive",
+        "category": "Clothing",
+        "categoryBackground": "#79C23F33",
+        "cardBackground": "#79C23F26",
+        "textColor": "#79C23F",
+        "description": "Empower individuals seeking employment by donating professional clothing to our Dress for Success program. Your support can help people make a positive first impression during job interviews and secure employment opportunities. By donating gently-used professional attire, you can contribute to someone's journey towards economic independence.",
+        "price": 30
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/5YNV3pn/Food.png",
+        "title": "Food Bank Assistance",
+        "category": "Food",
+        "categoryBackground": "#F8714751",
+        "cardBackground": "#F8714738",
+        "textColor": "#F87147",
+        "description": "Join us in providing meals and support to individuals experiencing homelessness in our city. Your donation will help homeless shelters offer warm meals, shelter, and vital services to those who have fallen on hard times. Your support can make a real difference in the lives of people facing homelessness, offering them hope and a chance for a better future.",
+        "price": 40
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/T2nm3dQ/edu-2.jpg",
+        "title": "Scholarships for Students",
+        "category": "Education",
+        "categoryBackground": "#FF444A33",
+        "cardBackground": "#FF444A26",
+        "textColor": "#FF444A",
+        "description": "Invest in the future of our community by donating to provide books and school supplies to local schools in need. Your contribution will ensure that students have access to the educational resources they need to excel in their studies. Education is the key to empowerment, and your support can help unlock the potential of countless young minds. Join us in making education accessible to all children in our area!",
+        "price": 60
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/rpPnVSW/health-2.png",
+        "title": "Maternal Health Support",
+        "category": "Health",
+        "categoryBackground": "#0052ff33",
+        "cardBackground": "#0052ff26 ",
+        "textColor": "#0052FF",
+        "description": "Support groundbreaking medical research aimed at finding cures for life-threatening diseases. Your donation will enable scientists and researchers to make significant progress in understanding and ultimately defeating these illnesses. By contributing to medical research, you can be a part of the solution and help improve the health and well-being of people around the world.",
+        "price": 90
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/NLLqyNT/cloth-5.jpg",
+        "title": "Cozy Blanket Drive",
+        "category": "Clothing",
+        "categoryBackground": "#79C23F33",
+        "cardBackground": "#79C23F26",
+        "textColor": "#79C23F",
+        "description": "Empower individuals seeking employment by donating professional clothing to our Dress for Success program. Your support can help people make a positive first impression during job interviews and secure employment opportunities. By donating gently-used professional attire, you can contribute to someone's journey towards economic independence.",
+        "price": 25
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/Wsf6Wg5/food-1.webp",
+        "title": "Meals for the Elderly",
+        "category": "Food",
+        "categoryBackground": "#F8714751",
+        "cardBackground": "#F8714738",
+        "textColor": "#F87147",
+        "description": "Join us in providing meals and support to individuals experiencing homelessness in our city. Your donation will help homeless shelters offer warm meals, shelter, and vital services to those who have fallen on hard times. Your support can make a real difference in the lives of people facing homelessness, offering them hope and a chance for a better future.",
+        "price": 35
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/sQK8KCD/edu-6.png",
+        "title": "Literacy Workshops",
+        "category": "Education",
+        "categoryBackground": "#FF444A33",
+        "cardBackground": "#FF444A26",
+        "textColor": "#FF444A",
+        "description": "Support the dreams of underprivileged students by contributing to our scholarship fund. Your donation will help deserving students access quality education, break the cycle of poverty, and achieve their academic goals. With your generous support, we can provide financial assistance to talented individuals who lack the means to pursue their dreams. Every dollar you donate brings us one step closer to a brighter future for these students. Make a difference today!",
+        "price": 55
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/k6PRsvP/health-4.jpg",
+        "title": "Mental Health Support",
+        "category": "Health",
+        "categoryBackground": "#8ECCF3",
+        "cardBackground": "#D9E5FF ",
+        "textColor": "#0052FF",
+        "description": "Contribute to our mission of improving healthcare in rural areas by donating to provide essential medical supplies to remote clinics. Many underserved communities lack access to even the most basic medical resources. Your donation will help save lives by ensuring that healthcare providers have the tools they need to diagnose and treat patients effectively. Your support can bring quality healthcare closer to those who need it most.",
+        "price": 70
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/hZXLM20/cloth-3.jpg",
+        "title": "Warm Winter Jackets",
+        "category": "Clothing",
+        "categoryBackground": "#79C23F33",
+        "cardBackground": "#79C23F26",
+        "textColor": "#79C23F",
+        "description": "Make a difference in the lives of those in need during the cold winter months by donating warm clothing items. Your contribution will help keep vulnerable individuals and families warm and protected from the harsh elements. Together, we can ensure that everyone has access to essential winter clothing, providing comfort and safety.",
+        "price": 40
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/jTgtwVG/food-2.jpg",
+        "title": "School Lunch Program",
+        "category": "Food",
+        "categoryBackground": "#F8714751",
+        "cardBackground": "#F8714738",
+        "textColor": "#F87147",
+        "description": "Help us combat hunger and food insecurity by donating to our food bank initiative. Many families in our community are struggling to put food on the table, and your contribution can make a significant impact. Your generous donation will go towards purchasing nutritious food items and distributing them to those in need. Together, we can ensure that no one in our community goes to bed hungry.",
+        "price": 30
+    }
+]
