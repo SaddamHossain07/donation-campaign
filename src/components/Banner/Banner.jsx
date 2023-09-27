@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'
 const Banner = ({ searchHandler }) => {
 
 
@@ -19,5 +19,9 @@ const Banner = ({ searchHandler }) => {
         </div>
     );
 };
+
+Banner.propTypes = {
+    searchHandler: PropTypes.func
+}
 
 export default Banner;
