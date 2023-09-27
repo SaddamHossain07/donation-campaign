@@ -30,11 +30,16 @@ const Donation = () => {
 
     return (
         <div>
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-16">
-                {
-                    savedItem.slice(0, dataLength).map(donation => <DonatedCard key={donation.id} donation={donation}></DonatedCard>)
-                }
-            </div>
+            {
+                savedItem.length > 0 ? <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-16">
+                    {
+                        savedItem.slice(0, dataLength).map(donation => <DonatedCard key={donation.id} donation={donation}></DonatedCard>)
+                    }
+                </div> :
+                    <h2 className="text-3xl font-bold text-center mt-24">You have not donate yet,
+                        <br /> Please donate!</h2>
+            }
+
             <div>
                 {
                     savedItem.length >= 4 && <div className={dataLength === donationAll.length ? "hidden" : "flex justify-center pt-12"}>
