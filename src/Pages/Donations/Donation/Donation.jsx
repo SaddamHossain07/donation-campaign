@@ -8,6 +8,8 @@ const Donation = () => {
 
     const [savedItem, setSavedItem] = useState([])
 
+    const [dataLength, setDataLenght] = useState(4)
+
     useEffect(() => {
         const savedDonations = []
         const savedIDs = getStoredDonation('donation')
@@ -27,10 +29,20 @@ const Donation = () => {
 
 
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-16">
-            {
-                savedItem.map(donation => <DonatedCard key={donation.id} donation={donation}></DonatedCard>)
-            }
+        <div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 pt-16">
+                {
+                    savedItem.slice(0, dataLength).map(donation => <DonatedCard key={donation.id} donation={donation}></DonatedCard>)
+                }
+            </div>
+            <div>
+                {
+                    savedItem.length >= 4 && <div className={dataLength === donationAll.length ? "hidden" : "flex justify-center pt-12"}>
+                        <button onClick={() => setDataLenght(donationAll.length)} className="bg-green-600 rounded-xl py-6 px-12 text-white text-lg font-bold">See All</button>
+                    </div>
+                }
+            </div>
+
         </div>
     );
 };

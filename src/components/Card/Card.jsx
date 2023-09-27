@@ -7,10 +7,14 @@ const Card = ({ card }) => {
         <div>
             <Link to={`/donation/donationDetails/${id}`} >
                 <div className="card card-compact shadow-xl rounded-lg" style={{ backgroundColor: cardBackground }}>
-                    <img className="h-52 w-full" src={picture} alt="Shoes" />
-                    <div className="card-body" style={{ color: textColor }}>
-                        <span className="py-1 px-4 rounded inline-block w-1/4" style={{ backgroundColor: categoryBackground }}>{category}</span>
-                        <h2 className="card-title text-xl font-bold py-4">{title}</h2>
+                    <figure>
+                        <img className="h-52 w-full" src={picture} alt="Shoes" />
+                    </figure>
+                    <div className="card-body mt-4" style={{ color: textColor }}>
+                        <div>
+                            <span className="py-1 px-4 rounded inline-block" style={{ backgroundColor: categoryBackground }}>{category}</span>
+                        </div>
+                        <h2 className="card-title text-xl font-bold pb-4 mt-2">{title}</h2>
                     </div>
                 </div>
             </Link>
