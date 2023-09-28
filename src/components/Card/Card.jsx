@@ -6,7 +6,7 @@ const Card = ({ card }) => {
 
     return (
         <div>
-            <Link to={`/donation/donationDetails/${id}`} >
+            <Link to={`/donation/donationDetails/${id}`} state={title} >
                 <div className="card card-compact shadow-xl rounded-lg" style={{ backgroundColor: cardBackground }}>
                     <figure>
                         <img className="h-52 w-full" src={picture} alt="Shoes" />

@@ -15,7 +15,7 @@ const DonatedCard = ({ donation }) => {
                     <h2 className="card-title text-2xl font-semibold">{title}</h2>
                     <p className="font-semibold" style={{ color: textColor }}>${price}</p>
                     <div className="card-actions justify-start pt-5">
-                        <Link to={`/donation/donationDetails/${id}`}>
+                        <Link to={`/donation/donationDetails/${id}`} state={title}>
                             <button className="btn border-0 text-white font-bold" style={{ backgroundColor: textColor }}>View Details</button>
                         </Link>
                     </div>
